@@ -17,8 +17,8 @@ function App() {
       </Helmet>
 
       <h1 className="app-header">Tolulope's React Counter App</h1>
-      <ul>
-        <li>
+      <ul className="navbar-space">
+        <li className="navbar-items">
           <Link to="/">Home</Link>
         </li>
         <li>
