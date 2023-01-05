@@ -31,7 +31,8 @@ function Counter(){
             <div className = "display-part">
             {state.count}
             </div>
-            <button onClick={()=>dispatch({type:"increment"})}>Increment</button>
+            <button onClick={()=>dispatch({type:"increment"})
+            }>Increment</button>
             <button onClick={()=>dispatch({type:"decrement"})}>Decrement</button>
             <button onClick={()=>dispatch({type:"resetvalue"})}>Reset</button>
             <button onClick={()=>dispatch({type:"setvalue"})}>SetValue</button>
