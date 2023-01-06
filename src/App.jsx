@@ -18,21 +18,30 @@ function App() {
 
       <h1 className="app-header">Tolulope's React Counter App</h1>
       <ul className="navbar-space">
-        <li className="navbar-items">
-          <Link to="/">Home</Link>
+        <li>
+          <Link className="navbar-items" to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/ErrorBoundary">ErrorBoundary</Link>
+          <Link className="navbar-items" to="/ErrorBoundary" target="_blank_blank">
+            ErrorBoundary
+          </Link>
         </li>
         <li>
-          <Link to="/PageNotFound">PageNotFound</Link>
+          <Link className="navbar-items" to="/PageNotFound">
+            PageNotFound
+          </Link>
         </li>
       </ul>
 
       <Counter />
       <Routes>
-        <Route path="/ErrorBoundary" element={<ErrorBoundary />}></Route>
+       <Route path="/ErrorBoundary" element={<ErrorBoundary />}></Route>
+        <Route element={PageNotFound}> </Route>
       </Routes>
+      <Routes>
+    
     </div>
   );
 }

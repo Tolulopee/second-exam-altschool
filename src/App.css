@@ -9,10 +9,11 @@
 
 body {
   background-color: black;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -31,12 +32,9 @@ body {
   margin-top: 20px;
 }
 
-.app-header:hover {
-  color: #282c35;
-}
-
 .navbar-space {
-  border: 1px solid red;
+  color: black;
+  font-size: 20px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -47,6 +45,7 @@ body {
 
 .navbar-items {
   color: black;
+  padding-right: 120px;
 }
 .display-part {
   border-radius: 3px;
@@ -56,12 +55,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-button {
+.btn-counter {
   margin-left: 10px;
   margin-top: 20px;
   background-color: black;
   color: #fce205;
   cursor: pointer;
+  
 }
 
 button:hover {
