@@ -41,8 +41,7 @@ function App() {
         <Route element={PageNotFound}> </Route>
       </Routes>
       <Routes>
-        <Route path="/ErrorBoundary" element={<ErrorBoundary />}></Route>
-      </Routes>
+    
     </div>
   );
 }
