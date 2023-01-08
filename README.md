@@ -5,9 +5,11 @@
  
  #Resources
  
- [React UuseReducer Docs](https://reactjs.org/docs/hooks-reference.html).
+ [React UseReducer Docs](https://reactjs.org/docs/hooks-reference.html).
  
  [React ErrorBoundary Docs](https://reactjs.org/docs/error-boundaries.html)
  
  This project was built with Vite.
+ 
+ Wrote an article about the changes i made to this app , here is the link to the [article]
  
