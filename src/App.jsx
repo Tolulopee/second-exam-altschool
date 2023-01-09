@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import "./App.css";
 import Counter from "./Components/Counter";
-import { Route, Routes, Link, redirect } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import PageNotFound from "./Components/PageNotFound";
 import ErrorBoundary from "./Components/ErrorBoundary";
 
@@ -38,7 +38,7 @@ function App() {
       <Counter />
       <Routes>
        <Route path="/ErrorBoundary" element={<ErrorBoundary />}></Route>
-        <Route element={PageNotFound}> </Route>
+        <Route path ="/PageNotFound" element={<PageNotFound/>}> </Route>
       </Routes>
       
     
