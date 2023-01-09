@@ -15,11 +15,8 @@ function useCustomCounter(val, step) {
     setCount(0);
   }
 
-  function setValue() {
-    setCount(count = val);
-  }
-
-  return [count, Increment, Decrement, resetValue, setValue];
+  
+  return [count, Increment, Decrement, resetValue];
 }
 
 export default useCustomCounter;
